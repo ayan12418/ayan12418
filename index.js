@@ -4,8 +4,12 @@ const dob = '09/12/2004'
 
 
 function sayName() {
-    console.log("hu");
+    console.log("My name is ' + name1")
+    console.log("my name is ' + name2")
+
     
-    
-    console.log('My name is Mohammad ayan')
+}
+
+function isAbove18() {
+    return age >= 18;
 }
